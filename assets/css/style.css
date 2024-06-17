@@ -13904,3 +13904,11 @@ hr.style1 {
 .footer-data{
   padding: 45px 10px;
 }
+
+.media-body img{
+  width: 100px;
+  object-fit: contain;
+  background: #fff;
+  padding: 9px;
+  border-radius: 5px;
+}
