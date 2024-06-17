@@ -13871,6 +13871,13 @@ hr.style1 {
           animation-delay: 6s;
 }
 
+@media (max-width: 575px) {
+  .img-box4 .location:nth-child(4) {
+    bottom: 151px;
+    right: 10px;
+  }
+}
+
 @-webkit-keyframes mapPulse {
   0% {
     -webkit-transform: scale(0.5);
