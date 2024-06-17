@@ -13841,8 +13841,12 @@ hr.style1 {
 
 @media (max-width: 575px) {
   .img-box4 .location:nth-child(1) {
-    bottom: 20px;
+    bottom: 133px;
     left: 20px;
+  }
+  .img-box4 .location:nth-child(4) {
+    bottom: 151px;
+    right: 10px;
   }
 }
 
