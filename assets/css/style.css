@@ -13980,3 +13980,196 @@ hr.style1 {
   padding: 9px;
   border-radius: 5px;
 }
+
+
+.work__section {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .8)), url(../image/bg-work-sec-two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work__section .work__section--header {
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+.work__section--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  margin-top: 238px;
+  padding: 0 20px;
+}
+
+.swiper-wrapper {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+.swiper-slide, .swiper-wrapper {
+  height: 100%;
+  position: relative;
+}
+@media (min-width: 1200px) {
+  .work__section--container .swiper-slide {
+      width: 100% !important;
+      height: 100% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mySwiper .swiper-slide {
+      flex-shrink: unset !important;
+  }
+}
+
+.spotlight-overlay {
+  position: absolute;
+  top: -250px;
+  left: 14px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/spotlight.webp);
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity .5s ease;
+  z-index: -1;
+}
+
+.work__section--container .img__1 {
+  background-image: url(../image/guitar-dark.webp);
+  display: inline-block;
+  transition: all .5s;
+  position: relative;
+}
+.work__section--container .img__1:hover {
+  background: url(../image/guitar-light.webp) no-repeat;
+  background-size: cover;
+}
+.work__section--container .img__2 {
+  background-image: url(../image/podium-dark.webp);
+  display: inline-block;
+  transition: all .5s;
+  position: relative;
+}
+.work__section--container .img__2:hover {
+  background: url(../image/podium-light.webp) no-repeat;
+  background-size: cover;
+}
+.work__section--container .img__3 {
+  background-image: url(../image/decor-dark.webp);
+  display: inline-block;
+  transition: all .5s;
+  position: relative;
+}
+
+.work__section--container .img__3:hover {
+  background: url(../image/decor-light.webp) no-repeat;
+  background-size: cover;
+}
+.work__section--container .img__4 {
+  background-image: url(../image/trophy-dark-1.webp);
+  display: inline-block;
+  transition: all .5s;
+  position: relative;
+}
+.work__section--container .img__4:hover {
+  background: url(../image/trophy-light-1.webp) no-repeat;
+  background-size: cover;
+}
+.work__section--container .images {
+  overflow: hidden;
+  width: 370px;
+  height: 610px;
+  background-size: 100% !important;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.spotlight:hover .spotlight-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* .spotlight-overlay {
+  position: absolute;
+  top: -250px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/spotlight.webp);
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity .5s ease;
+  z-index: -1;
+} */
+.work__section .work__sectio--label {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+.sub-title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  color:#f4b737 ;
+}
+.work__section .work__sectio--label span {
+  color: #f4b737;
+  padding: 20px;
+}
+.title-micro {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .125em;
+  text-transform: uppercase;
+}
+
+.town-data-index{
+  display: none;
+}
+@media (max-width: 991px){
+  .town-data-index{
+    display: block;
+  }
+  .town-hall-dara-index{
+    display: none;
+  }
+}
+
+.work__section--container  p{
+  color: #ff0d0d;
+  opacity: 0;
+  transition: all 0.5s ease;
+  top: -100px;
+ position: relative;
+}
+
+.work__section--container p:hover{
+  opacity: 1;
+  top: 0;
+}

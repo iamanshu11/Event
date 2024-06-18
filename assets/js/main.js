@@ -1255,4 +1255,30 @@ popupSideMenu('.shopping-cart', '.sideMenuToggler2', '.sideMenuCls', 'show');
     //     }
     //   }
 
+    $(document).ready(function() {
+        $('.carousel4').owlCarousel({
+            loop: false,
+            autoplay: false,
+            margin: 10,
+            nav: true,
+            dots: true,
+            autoplayTimeout: 3000, 
+            smartSpeed: 1000,
+            navText : ["<i class='bi bi-arrow-left'></i>","<i class='bi bi-arrow-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    })
+  
+
 })(jQuery);  
+
