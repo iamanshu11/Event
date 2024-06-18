@@ -13452,9 +13452,11 @@ hr.style1 {
 
 .feature-card_title {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 40px;
   line-height: 36px;
-  color: var(--white-color);
+  background: linear-gradient(92.56deg, #C00000 12.75%, rgba(238, 166, 25, 0.86) 76.14%);
+    -webkit-background-clip: text;
+    color: transparent;
   margin: 23px 0 12px 0;
   text-align: center;
   /* Large devices */
@@ -14172,4 +14174,82 @@ hr.style1 {
 .swiper-slide:hover p{
   opacity: 1;
   top: 0;
+}
+/* .partner-client{
+  background: url(../image/map.png);
+  object-fit: cover;
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+} */
+
+.entertainment-programs {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.entertainment-programs .box__one {
+  background-color: rgb(53, 44, 44);
+  z-index: 3;
+  transition: cubic-bezier(.94,.17,.02,.99);
+  translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+}
+
+.entertainment-programs .box__one {
+  width: 588px;
+  height: 312px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.entertainment-programs .box__two {
+  background-color: rgb(78, 59, 59);
+  z-index: 10;
+  transition: cubic-bezier(.94,.17,.02,.99);
+}
+.entertainment-programs .box__two {
+  width: 588px;
+  height: 312px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.entertainment-programs .box__three {
+  background-color: rgb(66, 54, 54);
+  z-index: 3;
+  translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+}
+
+.entertainment-programs .box__three {
+  width: 588px;
+  height: 312px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.feature-card_title{
+  position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(68px, 50px);
 }
