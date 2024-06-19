@@ -13464,7 +13464,7 @@ hr.style1 {
 
 @media (max-width: 1199px) {
   .feature-card_title {
-    font-size: 20px;
+    font-size: 44px;
   }
 }
 
@@ -14257,3 +14257,41 @@ hr.style1 {
     left: 50px;
     transform: translate(68px, 50px);
 }
+
+.experience-img{
+  background-image: url(../image/event/event4.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+ .client-img{
+  background-image: url(../image/event/event2.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+
+ }
+ .event-img{
+  background-image: url(../image/event/event3.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+
+ }
+ @media (max-width: 991px){
+  .counting-data{
+    gap: 20px;
+   }
+ }
+
+ .dream-drive-data{
+  display: none;
+ }
+  @media (max-width: 991px){
+    .dream-drive-data{
+      display: block;
+     }
+     .space{
+      display: none;
+     }
+ }
