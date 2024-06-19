@@ -14159,7 +14159,7 @@ hr.style1 {
   line-height: 100%;
   letter-spacing: .02em;
   /* text-transform: uppercase; */
-  color:#f4b737 ;
+  color:#ffffff ;
 }
 .work__section .work__sectio--label span {
   color: #f4b737;
@@ -14190,7 +14190,7 @@ hr.style1 {
 }
 
 .swiper-slide  p{
-  color: #ff0d0d;
+  color: #ffffff;
   opacity: 0;
   transition: all 0.5s ease;
   top: -100px;
