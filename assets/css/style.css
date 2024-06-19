@@ -14054,50 +14054,72 @@ hr.style1 {
 }
 
 .work__section--container .img__1 {
-  background-image: url(../image/guitar-dark.webp);
+  background-image: url(../image/eur-website-icons/branding-communication-dark.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
 }
 .work__section--container .img__1:hover {
-  background: url(../image/guitar-light.webp) no-repeat;
+  background: url(../image/eur-website-icons/branding-communication-light.png) no-repeat;
   background-size: cover;
 }
 .work__section--container .img__2 {
-  background-image: url(../image/podium-dark.webp);
+  background-image: url(../image/eur-website-icons/corporate-merchandising-dark.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
 }
 .work__section--container .img__2:hover {
-  background: url(../image/podium-light.webp) no-repeat;
+  background: url(../image/eur-website-icons/corporate-merchandising-light.png) no-repeat;
   background-size: cover;
 }
 .work__section--container .img__3 {
-  background-image: url(../image/decor-dark.webp);
+  background-image: url(../image/eur-website-icons/experiential-event-dark.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
 }
 
 .work__section--container .img__3:hover {
-  background: url(../image/decor-light.webp) no-repeat;
+  background: url(../image/eur-website-icons/experiential-event-light.png) no-repeat;
   background-size: cover;
 }
 .work__section--container .img__4 {
-  background-image: url(../image/trophy-dark-1.webp);
+  background-image: url(../image/eur-website-icons/mice-dark.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
 }
 .work__section--container .img__4:hover {
-  background: url(../image/trophy-light-1.webp) no-repeat;
+  background: url(../image/eur-website-icons/mice-light.png) no-repeat;
+  background-size: cover;
+}
+
+.work__section--container .img__5 {
+  background-image: url(../image/eur-website-icons/talent-management-dark.png);
+  display: inline-block;
+  transition: all .5s;
+  position: relative;
+}
+.work__section--container .img__5:hover {
+  background: url(../image/eur-website-icons/talent-management-light.png) no-repeat;
+  background-size: cover;
+}
+
+.work__section--container .img__6 {
+  background-image: url(../image/eur-website-icons/virtual-hybrid-dark.png);
+  display: inline-block;
+  transition: all .5s;
+  position: relative;
+}
+.work__section--container .img__6:hover {
+  background: url(../image/eur-website-icons/virtual-hybrid-light.png) no-repeat;
   background-size: cover;
 }
 .work__section--container .images {
   overflow: hidden;
   width: 252px;
-  height: 500px;
+  height: 420px;
   background-size: 100% !important;
   background-repeat: no-repeat;
   margin-right: 10px;
