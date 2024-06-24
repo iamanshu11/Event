@@ -677,7 +677,7 @@ textarea.style2 {
 }
 
 [class*="col-"].form-group > i {
-  right: calc((var(--bs-gutter-x) / 2) + 25px);
+  right: calc((var(--bs-gutter-x) / 2) + 35px);
 }
 
 option:checked, option:focus, option:hover {
