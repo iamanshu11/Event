@@ -13933,7 +13933,8 @@ hr.style1 {
 @media (max-width: 575px) {
   .img-box4 .location:nth-child(7) {
     bottom: 150px;
-    left: 0%;
+        left: 20%;
+        z-index: 99;
   }
   
 }
