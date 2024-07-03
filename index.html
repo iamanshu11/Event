@@ -32,6 +32,7 @@
 
     <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha384-aY5+F6+mxz/bsBBOUYmyyLtD+M6HcEw5kQ21T9HdBRsGpZxGr3rsCzFO3mvvK+vR" crossorigin="anonymous">
 
 </head>
 
@@ -1229,8 +1230,20 @@ Contact Area
     <!-- Tweenmax File -->
     <script src="assets/js/nice-select.min.js"></script>
     <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha384-LiKzy7p5lsfy7HZgfpU/KmXfd7Exr7FglA7XZgOW3k0u8W0S7FTYCEowJPMoDAeI" crossorigin="anonymous"></script>
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.th-carousel').magnificPopup({
+                delegate: 'img', 
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
     <script>
         const swiper = new Swiper('.swiper', {
     
