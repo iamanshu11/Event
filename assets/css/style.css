@@ -14079,7 +14079,7 @@ hr.style1 {
 }
 
 .work__section--container .img__1 {
-  background-image: url(../image/eur-website-icons/branding-communication-dark.png);
+  background-image: url(../image/service/branding.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
@@ -14089,7 +14089,7 @@ hr.style1 {
   background-size: cover;
 }
 .work__section--container .img__2 {
-  background-image: url(../image/eur-website-icons/corporate-merchandising-dark.png);
+  background-image: url(../image/service/corporate.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
@@ -14099,7 +14099,7 @@ hr.style1 {
   background-size: cover;
 }
 .work__section--container .img__3 {
-  background-image: url(../image/eur-website-icons/experiential-event-dark.png);
+  background-image: url(../image/service/experiential.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
@@ -14110,7 +14110,7 @@ hr.style1 {
   background-size: cover;
 }
 .work__section--container .img__4 {
-  background-image: url(../image/eur-website-icons/mice-dark.png);
+  background-image: url(../image/service/mice.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
@@ -14121,7 +14121,7 @@ hr.style1 {
 }
 
 .work__section--container .img__5 {
-  background-image: url(../image/eur-website-icons/talent-management-dark.png);
+  background-image: url(../image/service/talent-management.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
@@ -14132,7 +14132,7 @@ hr.style1 {
 }
 
 .work__section--container .img__6 {
-  background-image: url(../image/eur-website-icons/virtual-hybrid-dark.png);
+  background-image: url(../image/service/virtual-hybrid.png);
   display: inline-block;
   transition: all .5s;
   position: relative;
