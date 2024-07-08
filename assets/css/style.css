@@ -14206,11 +14206,17 @@ hr.style1 {
     display: none;
   }
   .work__section--container .images {
-    width: 85%;
-    height: 445px;
+    width: 90%;
+    height: 500px;
   }
 }
+@media (max-width: 1300px){
+  .work__section--container .images {
+    width: 90%;
+    height: 445px;
+  }
 
+}
 .swiper-slide  p{
   color: #ffffff;
   opacity: 0;
