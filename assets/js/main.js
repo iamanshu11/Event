@@ -220,16 +220,6 @@
             return asSlide.data(data);
         }
 
-        // Custom Arrow Button
-        var prevButton =
-            '<button type="button" class="slick-prev"><i class="' +
-            d("prev-arrow") +
-            '"></i></button>',
-            nextButton =
-            '<button type="button" class="slick-next"><i class="' +
-            d("next-arrow") +
-            '"></i></button>';
-
         // Function For Custom Arrow Btn
         $("[data-slick-next]").each(function () {
             $(this).on("click", function (e) {

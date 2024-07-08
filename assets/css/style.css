@@ -97,7 +97,7 @@ embed,
 object,
 video {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 ul {
@@ -14303,20 +14303,20 @@ hr.style1 {
 }
 
 .experience-img{
-  background-image: url(../image/event/event4.webp);
+  background-image: url(../image/deliver.png);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
 }
  .client-img{
-  background-image: url(../image/event/event2.webp);
+  background-image: url(../image/drive.png);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
 
  }
  .event-img{
-  background-image: url(../image/event/event3.webp);
+  background-image: url(../image/dream.png);
   background-size: cover;
   background-position: center;
   border-radius: 5px;
@@ -14503,3 +14503,232 @@ hr.style1 {
 .effect-10:hover h2{
   display: none;
 }
+
+.inner-hero {
+  height: 70vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.town-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.about-hero-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  object-fit: cover;
+  object-position: top;
+}
+.hero-heading {
+  font-family: "Poppins";
+  font-size: 83px;
+  font-weight: 900;
+  line-height: 128px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+@media only screen and (max-width: 991px) {
+  .about-hero-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      object-fit: cover;
+      /* object-position: top; */
+      object-position: right;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .hero-heading {
+      font-size: 34px;
+      line-height: 50px;
+  }
+}
+
+.carrer-data {
+  background-color: #F3EAEA;
+  padding: 80px 84px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+.carrer-data-portal {
+  margin-left: 20px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  background-color: aliceblue;
+}
+.career-data-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.data-button {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+@media only screen and (max-width: 991px) {
+  .carrer-data {
+    padding: 70px 52px;
+    /* width: 350px; */
+    /* height: 350px; */
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .carrer-data h3 {
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 0px;
+  }
+  .carrer-data-portal {
+    margin-left: 0;
+  }
+  .extra-space{
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .carrer-data p {
+      font-size: 18px;
+      line-height: 24px;
+  }
+}
+ /*=============
+    contact section css
+    ==============*/
+  
+  
+    .contact-talk {
+      background-color: #930505;
+    }
+  
+    .contact-detail {
+      background-color: rgba(0, 0, 0, 1);
+    }
+  
+    .detail {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+  
+    .contact-info-data {
+      position: relative;
+    }
+  
+    .contact-info {
+      position: relative;
+      padding: 80px;
+    }
+  
+    .contact-img img {
+      width: 100%;
+      height: 227px;
+      object-fit: cover;
+    }
+  
+    .contact-img {
+      position: absolute;
+      top: -15px;
+      left: 0;
+      width: 70%;
+    }
+  
+    .contact-form {
+      text-align: left;
+    }
+  
+    .contact-item img {
+      width: 30%;
+      height: 180px;
+      object-fit: contain;
+  
+    }
+  
+    .contact-form h2 {
+      margin-bottom: 20px;
+      padding: 50px;
+      font-size: 52px;
+      color: #FFAF00;
+    }
+  
+    .contact-form input[type="text"],
+    .contact-form input[type="file"],
+    .contact-form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #FFAF00;
+      border-radius: 10px;
+      box-shadow: 1px 4px 9px #0c0c0cbf;
+    }
+  
+    .contact-form label {
+      width: 100%;
+      color: #fff;
+    }
+  
+  
+    .contact-form textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      border-bottom: 1px solid #FFAF00;
+  
+    }
+  
+    .contact-form button {
+      background-color: #930505;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      width: 50%;
+    }
+  
+    .contact-form button:hover {
+      background-color: #C00000;
+    }
+  
+    @media only screen and (max-width:991px) {
+      .contact-info {
+        padding: 30px;
+      }
+  
+      .contact-form h2 {
+        padding: 20px;
+      }
+  
+      .contact-img img {
+        display: none;
+  
+      }
+    }
+  .contact-form-data{
+    background-color: #000;
+  }
