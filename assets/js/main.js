@@ -236,16 +236,16 @@
         });
 
         // Check for arrow wrapper
-        if (d("arrows") == true) {
+        if (d("arrows") == false) {
             if (!asSlide.closest(".arrow-wrap").length) {
                 asSlide.closest(".container").parent().addClass("arrow-wrap");
             }
         }
 
         asSlide.slick({
-            dots: d("dots") ? true : false,
+            dots: d("dots") ? false : false,
             fade: d("fade") ? true : false,
-            arrows: d("arrows") ? true : false,
+            arrows: d("arrows") ? false : false,
             speed: d("speed") ? d("speed") : 1000,
             asNavFor: d("asnavfor") ? d("asnavfor") : false,
             autoplay: d("autoplay") == false ? false : true,
@@ -261,13 +261,6 @@
             variableWidth: d("variable-width") ? true : false,
             vertical: d("vertical") ? true : false,
             verticalSwiping: d("vertical") ? true : false,
-            prevArrow: d("prev-arrow")
-                ? prevButton
-                : '<button type="button" class="slick-prev"><i class="far fa-arrow-left"></i></button>',
-            nextArrow: d("next-arrow")
-                ? nextButton
-                : '<button type="button" class="slick-next"><i class="far fa-arrow-right"></i></button>',
-            rtl: $("html").attr("dir") == "rtl" ? true : false,
             responsive: [
                 {
                     breakpoint: 1600,
@@ -310,8 +303,6 @@
                 {
                     breakpoint: 992,
                     settings: {
-                        arrows: d("md-arrows") ? true : false,
-                        dots: d("md-dots") ? true : false,
                         slidesToShow: d("md-slide-show")
                             ? d("md-slide-show")
                             : 1,
@@ -324,8 +315,6 @@
                 {
                     breakpoint: 768,
                     settings: {
-                        arrows: d("sm-arrows") ? true : false,
-                        dots: d("sm-dots") ? true : false,
                         slidesToShow: d("sm-slide-show")
                             ? d("sm-slide-show")
                             : 1,
@@ -338,8 +327,6 @@
                 {
                     breakpoint: 576,
                     settings: {
-                        arrows: d("xs-arrows") ? true : false,
-                        dots: d("xs-dots") ? true : false,
                         slidesToShow: d("xs-slide-show")
                             ? d("xs-slide-show")
                             : 1,
