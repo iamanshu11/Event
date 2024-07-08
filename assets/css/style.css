@@ -14198,7 +14198,7 @@ hr.style1 {
 .town-data-index{
   display: none;
 }
-@media (max-width: 991px){
+@media (max-width: 1580px){
   .town-data-index{
     display: block;
   }
